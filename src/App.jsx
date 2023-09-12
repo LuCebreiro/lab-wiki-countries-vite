@@ -8,7 +8,6 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <h1>LAB | React WikiCountries</h1>
       <div className="container pt-5">
         <Routes>
         <Route path="/" element={<HomePage/>} />
